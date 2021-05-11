@@ -22,9 +22,9 @@ public class Sms {
 
         // Build the parameters
         List<NameValuePair> params = new ArrayList<NameValuePair>();
-        params.add(new BasicNameValuePair("To", "+14159352345"));
-        params.add(new BasicNameValuePair("From", "+14158141829"));
-        params.add(new BasicNameValuePair("Body", "Where's Wallace?"));
+        params.add(new BasicNameValuePair("To", "8178439610"));
+        params.add(new BasicNameValuePair("From", "8527037357"));
+        params.add(new BasicNameValuePair("Body", "Where's rajat?"));
 
       MessageFactory messageFactory = client.getAccount().getMessageFactory();
        Message message = messageFactory.create(params);
